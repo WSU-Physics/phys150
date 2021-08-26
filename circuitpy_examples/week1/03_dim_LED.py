@@ -23,6 +23,6 @@ while True:
     led.value = False
     time.sleep(T_off)
 
-# Try changing brightness and period and see they do what you expect.
+# Try changing brightness and period and see if they do what you expect.
 # Why are some commands outside the while loop, and others inside?
 # How could you change the brightness while the program is running?
