@@ -1,10 +1,23 @@
 from adafruit_circuitplayground import cp
 import time
 import random
+import board
+import digitalio
+from audiocore import WaveFile
+from audioio import AudioOut
+
+
+# Enable the speaker
+spkrenable = cp._speaker_enable
+spkrenable.direction = digitalio.Direction.OUTPUT
+spkrenable.value = True
 
 # Play the siren noise.
 # Use gen_wav_file.py to create the wav file.
-cp.play_tone(440)
+wave_file = open('siren.wav', "rb")
+wave = WaveFile(wave_file)
+audio = AudioOut(board.SPEAKER)
+audio.play(wave, loop=True)
 
 # They are very bright, maybe keep them dim so they're easier to look at
 cp.pixels.brightness = 0.1
