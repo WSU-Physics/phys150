@@ -9,7 +9,6 @@ total_time = 5  # s
 length = int(sample_rate * total_time)
 freq_i = 200  # Hz
 freq_f = 1600  # Hz
-steps = 2 * (freq_f - freq_i) / length
 
 times = np.arange(length) / sample_rate
 freqs = (np.sin(2 * np.pi * times / total_time - np.pi / 2) + 1) / 2 * (freq_f - freq_i) + freq_i
