@@ -9,10 +9,24 @@
 
 import time
 from adafruit_circuitplayground.express import cpx
+import os
 
 g = 9.801
 log_time = 0.02  # Time to wait between logging points
 wait_time = 0.1  # Time to wait when listening for button
+
+
+def get_fname():
+    fname = "acceleration.csv"
+    allfiles = os.listdir("/")
+
+    if fname in allfiles:
+        i = 1
+        while fname in allfiles:
+            print(i)
+            fname = f"acceleration_{i}.csv"
+            i += 1
+    return "/" + fname
 
 def log_accel(file=None):
     x, y, z = cpx.acceleration
@@ -42,7 +56,8 @@ def get_accel_on_button(file):
 try:
     while True:
         # open a file to save the data to
-        with open("/acceleration.csv", "a") as fp:
+        fname = get_fname()
+        with open(fname, "a") as fp:
             get_accel_on_button(fp)
 
 # will flash the D13 red LED to let us know we can edit the code.py file (i.e. the storage is writeable)
