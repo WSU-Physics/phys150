@@ -17,15 +17,14 @@ wait_time = 0.1  # Time to wait when listening for button
 
 
 def get_fname():
-    fname = "acceleration.csv"
     allfiles = os.listdir("/")
 
-    if fname in allfiles:
-        i = 1
-        while fname in allfiles:
-            print(i)
-            fname = f"acceleration_{i}.csv"
-            i += 1
+    i = 1
+    fname = f"acceleration_{i}.csv"
+    while fname in allfiles:
+        i += 1
+        print(i)
+        fname = f"acceleration_{i}.csv"
     return "/" + fname
 
 def log_accel(file=None):
