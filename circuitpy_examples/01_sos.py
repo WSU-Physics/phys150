@@ -20,4 +20,5 @@ while True:
         led.value = True
         time.sleep(a/10)
         led.value = False
-        time.sleep(0.2)     
+        time.sleep(0.2)
+    time.sleep(1.0)
