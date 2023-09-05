@@ -18,7 +18,7 @@ while True:
     for a in [1,1,1,3,3,3,1,1,1,]:
         print("Hello, CircuitPython!",a)
         led.value = True
-        time.sleep(a/10)
+        time.sleep(a/9)
         led.value = False
         time.sleep(0.2)
-    time.sleep(1.0)
+    time.sleep(1.1)
