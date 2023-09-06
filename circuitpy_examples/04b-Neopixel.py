@@ -13,9 +13,7 @@ while (True):
 
     for c in [1, 2, 3]:
         if (c == 1):
-            b_Red = 64
-            b_Green = 0
-            b_Blue = 0
+            (b_Red,b_Green,b_Blue) = (64, 0, 0)
         elif (c == 2):            
             (b_Red,b_Green,b_Blue) = (0, 64, 0)
         elif (c == 3):
