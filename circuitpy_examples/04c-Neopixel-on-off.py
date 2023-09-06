@@ -9,10 +9,12 @@ cp.pixels.brightness = 0.05  # 5%
 # set each color to 50/128 intensity
 cp.pixels.fill((50, 50, 50))
 
+pix_color = (64, 0, 64)
+
 while (True):
 
     for pn in range(0,10,1):
-        cp.pixels[pn] = (64, 0, 64)
+        cp.pixels[pn] = pix_color
         time.sleep(0.4)
         cp.pixels[pn] = (0, 0, 0)
         
