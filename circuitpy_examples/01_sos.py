@@ -15,7 +15,7 @@ while True:
     # this loop follows the same repetition as in the previous foreach example
     # reminder:     for a in [1,2,3,4,5]:
     # the diffrerence is the while (instead of foreach) loop structure
-    for a in [1,1,1,3,3,3,1,1,1,]:
+    for a in [1,1,2,3,3,3,2,1,1,]:
         print("Hello, CircuitPython!",a)
         led.value = True
         time.sleep(a/10)
