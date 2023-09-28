@@ -3,6 +3,8 @@
 # report degrees, not radians (as currently written)
 # finally, need to figure out how to report this to users
 
+# first two isssues resolved
+
 from adafruit_circuitplayground import cp
 import time
 import math
@@ -18,11 +20,17 @@ while True:
     cp.pixels.fill([r, g, b])
     time.sleep(0.5)
 
-    theta_xy = math.atan(y/x)
-    theta_xz = math.atan(z/x)
-    theta_yz = math.atan(z/y)
+    if x == 0.0 :
+        theta_xy = 90.0 # degrees
+        theta_xz = 90.0
+    else:
+        #2 pi radians in 360 degrees
+        theta_xy = (360.0/(2.0*math.pi))*math.atan(y/x) # converted into degrees
+        theta_xz = (360.0/(2.0*math.pi))*math.atan(z/x)
+
+    if y==0.0 :
+        theta_yz = 90.0
+    else :
+        theta_yz = (360.0/(2.0*math.pi))*math.atan(z/y)
 
     print( x, y, z, theta_xy, theta_xz, theta_yz )
-
-
-
