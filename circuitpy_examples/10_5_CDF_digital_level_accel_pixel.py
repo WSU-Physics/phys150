@@ -19,7 +19,7 @@ while True:
     print((angle_from_vertical,))
 
     cpx.pixels.brightness = (1-(.95*abs(angle_from_vertical)/90))**5
-    if abs(angle_from_vertical)< 1.0:
+    if abs(angle_from_vertical)< 0.3:
         cpx.pixels.fill((150,0,0))
     else:
         cpx.pixels.fill((50,50,50))
