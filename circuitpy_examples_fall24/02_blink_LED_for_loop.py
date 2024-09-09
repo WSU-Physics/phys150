@@ -8,10 +8,13 @@ import time
 led = digitalio.DigitalInOut(board.LED)
 led.direction = digitalio.Direction.OUTPUT
 
+# ntm - I like specifying time in one place per class discussion
+dt = 1
+
 while True:
     for state in [True, False]:
         led.value = state
-        time.sleep(1)
+        time.sleep(dt)
 
 # Walk through the loops like the computer does and predict what will happen
 # Then try it out and see if you were right.
