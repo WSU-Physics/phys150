@@ -22,6 +22,7 @@ while True:
     time.sleep(T_on)
     led.value = False
     time.sleep(T_off)
+    # idea from the class, what if the buttons on the cipy changed the speed, how would we do that?
 
 # Try changing brightness and period and see if they do what you expect.
 # Why are some commands outside the while loop, and others inside?
