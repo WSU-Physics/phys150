@@ -22,7 +22,14 @@ while True:
     time.sleep(T_on)
     led.value = False
     time.sleep(T_off)
-
+    # idea from the class, what if the buttons on the cipy changed the speed, how would we do that?
+    # looking at the documentation, https://learn.adafruit.com/circuit-playground-lesson-number-0/buttons-slide-switch
+    if(CircuitPlayground.leftButton()):
+        period = period*0.9
+    if(CircuitPlayground.rightButton()):
+        period = period*1.1
+    print(period)
+        
 # Try changing brightness and period and see if they do what you expect.
 # Why are some commands outside the while loop, and others inside?
 # How could you change the brightness while the program is running?
