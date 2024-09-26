@@ -16,3 +16,6 @@ while True:
 # What are the units of acceleration?
 # How does this code relay the acceleration information to the user?
 # Would this make a good level? Why or why not?
+#
+# Here's the Adafruit documentation for the accelerometer
+#     https://learn.adafruit.com/circuit-playground-lesson-number-0/accelerometer
