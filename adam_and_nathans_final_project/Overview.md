@@ -17,4 +17,4 @@ Nathan had a all-sky camera in the backyard.  It would take pictures of the sky 
 9. will not create reflections on the inside of the polycarbonate dome
 
 ## Here's an example image from 2021-September-20, taken at 3:28am
-![Picture of Nathan's bakyard sky in September 2021]("sky-2021-09-20-03-28-12.jpg")
+![Picture of Nathan's bakyard sky in September 2021](sky-2021-09-20-03-28-12.jpg)
