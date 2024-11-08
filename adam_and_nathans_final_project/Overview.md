@@ -18,3 +18,9 @@ Nathan had a all-sky camera in the backyard.  It would take pictures of the sky 
 
 ## Here's an example image from 2021-September-20, taken at 3:28am
 ![Picture of Nathan's bakyard sky in September 2021](sky-2021-09-20-03-28-12.jpg)
+
+33 Here are a few examples that show reflections and frost.
+![](sky-2021-11-20-21-55-42-frost.jpg)
+![](sky-2021-11-25-22-45-15-frost.jpg)
+![](sky-2021-11-26-20-06-52-reflection.jpg)
+![](sky-2021-12-07-04-47-53-reflection.jpg)
