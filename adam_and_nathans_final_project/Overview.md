@@ -13,7 +13,7 @@ Nathan had a all-sky camera in the backyard.  It would take pictures of the sky 
 5. will work down to -30F
 6. will not damage the plastic/polycarbonte dome
 7. Nathan doesn't want to see frost or condensation on the dome (how can we quantify this?)
-8. must be user servicable.
+8. will be user servicable.
 9. will not create reflections on the inside of the polycarbonate dome
 
 ## Project Plan
