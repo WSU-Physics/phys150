@@ -16,6 +16,9 @@ Nathan had a all-sky camera in the backyard.  It would take pictures of the sky 
 8. must be user servicable.
 9. will not create reflections on the inside of the polycarbonate dome
 
+## Project Plan
+We are maintaining our [project plan](https://github.com/orgs/WSU-Physics/projects/2) using Github Projects.
+
 ## Here's what the camera assembly looks like
 ![](camera_assembly-1.png)
 ![](camera_assembly-2.png)
