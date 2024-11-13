@@ -9,7 +9,7 @@ Nathan had a all-sky camera in the backyard.  It would take pictures of the sky 
 1. will run on USB or 110AC electrical power
 2. will not "brown out" the computer running the camera
 3. will not overheat the assembly (PVC and polycarbonate)
-4. will, along with the assembly, fit in a 3 or 4" PVC pipe
+4. will, along with the assembly, fit in a 3 or 4" PVC pipe, or, if outside, be weatherproof.
 5. will work down to -30F
 6. will not damage the plastic/polycarbonte dome
 7. Nathan doesn't want to see frost or condensation on the dome (how can we quantify this?)
