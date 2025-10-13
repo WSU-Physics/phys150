@@ -4,6 +4,6 @@
 
 There are lots of fun things to do in Winona.  Here's a short list:
 
-- South East Minnesota is full of amazing trout streams.  The MN DNR has a (https://www.dnr.state.mn.us/fishing/trout/index.html)[resource page with maps]. The closest streams to campus are Garvin Brook, Gilmore Creek, Burns Valley Creek, and Pleasant Valley Creek.   
-![Map of Winona Trout Streams](/images/Trout_Streams.png)
+- South East Minnesota is full of amazing trout streams.  The MN DNR has a (https://www.dnr.state.mn.us/fishing/trout/index.html)[resource page with maps]. The closest streams to campus are (https://maps.app.goo.gl/kS5dTASksrcMZxjz5)[Garvin Brook], Gilmore Creek, Burns Valley Creek, and Pleasant Valley Creek.   
+![Map of Winona area trout streams](./images/Trout_Streams.png)
 
