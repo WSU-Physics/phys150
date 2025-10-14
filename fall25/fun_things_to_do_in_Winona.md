@@ -11,3 +11,7 @@ There are lots of fun things to do in Winona.  Here's a short list:
 
 
 + Walking by the lakes
+
+### West gate Bowling ###
+They have a great bar and grill
+They have bowling from 3pm to 11pm
