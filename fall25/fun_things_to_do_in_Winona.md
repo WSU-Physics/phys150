@@ -11,3 +11,7 @@ There are lots of fun things to do in Winona.  Here's a short list:
 - If you are looking for a pretty spot to view the town of Winona, head to the Garvin Heights Lookout! Here, you will experience not only senic views, but also hiking trails, biking trails, picnic spots, and more. Click this link to find the description and address: https://visitwinona.com/directory/garvin-heights-park/.
 
 + Walking by the lakes
+
+### West gate Bowling ###
+They have a great bar and grill
+They have bowling from 3pm to 11pm
