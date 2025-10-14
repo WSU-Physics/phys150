@@ -8,6 +8,6 @@ There are lots of fun things to do in Winona.  Here's a short list:
 ![Map of Winona area trout streams](./images/Trout_Streams.png)
 - The ice climbing wall is one of the [best in the country](https://www.cityofwinona.com/facilities/facility/details/winonaicepark-57)
 
-
+- If you are looking for a pretty spot to view the town of Winona, head to the Garvin Heights Lookout! Here, you will experience not only senic views, but also hiking trails, biking trails, picnic spots, and more. Click this link to find the description and address: https://visitwinona.com/directory/garvin-heights-park/.
 
 + Walking by the lakes
