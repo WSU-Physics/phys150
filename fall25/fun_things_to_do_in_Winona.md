@@ -8,6 +8,16 @@ There are lots of fun things to do in Winona.  Here's a short list:
 ![Map of Winona area trout streams](./images/Trout_Streams.png)
 - The ice climbing wall is one of the [best in the country](https://www.cityofwinona.com/facilities/facility/details/winonaicepark-57)
 
+  # Disc Golf in Winona
 
+In Winona, there are three disc golf courses. One behind Saint Marry's University, one after the bridge across the lake when driving from the highway to Winona State, and one along the lake at the park by the Clinic and YMCA. 
 
-+ Walking by the lakes
+Ranking these courses, number 1 goes to Saint Marry's, number 2 goes to the one by the Y, and dead last goes to the one by the bridge. 
+
+Saint Marry's is scenic, serene, and offers an amazing blend of nature hiking and a fun and challenging course.
+
+The lake side course offers a fun and challenging experience with many unique holes, and is located in the center of the town, so its not far from anywhere. 
+
+Lastly, the one by the bridge is close to WSU, but is lacking in many features and is often plagued with overgrown grass, causing discs to be lost in the middle of the fairway, and is overall unintresting and featureless.
+
+  
