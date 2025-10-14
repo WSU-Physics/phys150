@@ -21,3 +21,10 @@ The lake side course offers a fun and challenging experience with many unique ho
 Lastly, the one by the bridge is close to WSU, but is lacking in many features and is often plagued with overgrown grass, causing discs to be lost in the middle of the fairway, and is overall unintresting and featureless.
 
   
+- If you are looking for a pretty spot to view the town of Winona, head to the Garvin Heights Lookout! Here, you will experience not only senic views, but also hiking trails, biking trails, picnic spots, and more. Click this link to find the description and address: https://visitwinona.com/directory/garvin-heights-park/.
+
+- Walking by the lakes
+
+### West gate Bowling ###
+They have a great bar and grill
+They have bowling from 3pm to 11pm
