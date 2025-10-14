@@ -15,3 +15,4 @@ There are lots of fun things to do in Winona.  Here's a short list:
 ### West gate Bowling ###
 They have a great bar and grill
 They have bowling from 3pm to 11pm
+- Winona area has many hiking trails and forests free to explore. One of my favorites is [Cherry Hill](https://www.trailforks.com/region/cherry-hill-16425/?activitytype=1&z=13.0&lat=44.06516&lon=-91.75138&content=trails,labels,region,poi,directory,polygon,waypoint,nst,routes_featured), as it is full of many small biking trails that extend for miles overlooking Goodview. 
