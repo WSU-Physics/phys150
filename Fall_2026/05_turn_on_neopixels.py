@@ -1,4 +1,5 @@
 # Turn on the neopixels, one at a time
+# Instead of import board and import digitalio we can use the import cp code below to access neopixel commands
 import time
 import random
 from adafruit_circuitplayground import cp
