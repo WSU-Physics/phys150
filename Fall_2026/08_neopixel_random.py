@@ -1,4 +1,4 @@
-# Make the neopixels blue, one at a time
+# turn on random colors, one at a time
 import time
 import random
 from adafruit_circuitplayground import cp
@@ -7,11 +7,12 @@ from adafruit_circuitplayground import cp
 cp.pixels.brightness = 0.1
 
 time_step = 1.0  # time between turning on pixels
-# Red, Green, Blue. 128 = max color
-color = (0, 0, 128)
 
 for i in range(10):
-    # Turn on pixel i
+    r = random.randint(0, 128)
+    g = random.randint(0, 128)
+    b = random.randint(0, 128)
+    color = (r, g, b)
     cp.pixels[i] = color
     time.sleep(time_step)
 
