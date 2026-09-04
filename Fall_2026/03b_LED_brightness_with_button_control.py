@@ -1,4 +1,4 @@
-# Adam Beardsley
+# Andy Ferstl
 # starting from from adafruit example
 # https://learn.adafruit.com/welcome-to-circuitpython/creating-and-editing-code
 #
@@ -9,9 +9,11 @@ import time
 led = digitalio.DigitalInOut(board.LED)
 led.direction = digitalio.Direction.OUTPUT
 
+# Initialize Button A
 button_a = digitalio.DigitalInOut(board.BUTTON_A)
 button_a.switch_to_input(pull=digitalio.Pull.DOWN)
 
+# Initialize Button B
 button_b = digitalio.DigitalInOut(board.BUTTON_B)
 button_b.switch_to_input(pull=digitalio.Pull.DOWN)
 
@@ -23,18 +25,16 @@ period = 0.01
 T_on = brightness * period
 T_off = period - T_on
 
-while True:
+while (T_on < period):
     led.value = True
     time.sleep(T_on)
     led.value = False
     time.sleep(T_off)
-    # How can we use the buttons on the CPX to change the brightness while the program is running?
-    # looking at the documentation, https://learn.adafruit.com/circuit-playground-lesson-number-0/buttons-slide-switch
-    if(button_a):
-        period = period*0.9
-    if(button_b):
-        period = period*1.1
-    print(period)
-        
-# Try changing brightness and period and see if they do what you expect.
-# Why are some commands outside the while loop, and others inside?
+#     if button a pressed, decrease time on
+#      if button b pressed, increase time on
+    if button_a.value:
+        T_on = T_on*0.9
+        print("T_on= ",T_on)
+    if button_b.value:
+        T_on = T_on*1.1
+        print(T_on)
